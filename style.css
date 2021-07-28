@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 body {
-    background-color: #693AAA;
     font-family: 'Montserrat', sans-serif;
 }
 
 .heading {
-    color: yellow;
+    color: #dec05f;
     text-align: center;
 }
 
@@ -18,38 +17,27 @@ body {
 
 .price-tier .tier {
     background-color: white;
+    border: 1px solid black;
     margin: 0px 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 .price-tier header h6 {
-    background-color: #473160;
+    background-color: #dec05f;
     text-transform: uppercase;
     color: white;
     padding: 8px 15px;
     margin: 0;
-    position: relative;
-    right: 25px;
-    bottom: 15px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 1px 1px #693AAA;
     letter-spacing: 1px;
-}
-
-.price-tier header .best-value {
-    background-color: red;
 }
 
 .price-tier .body {
     text-align: center;
-    color: #693AAA;
+    color: #dec05f;
 }
 
 .price-tier .body img {
-    max-width: 70%;
-    height: auto;
 }
 
 .price-tier .body .price-tag {
@@ -61,8 +49,8 @@ body {
 }
 
 .price-tier .body button {
-    background-color: #D7B133;
-    color: #693AAA;
+    background-color: #dec05f;
+    color: #fff;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: 24px;
@@ -70,17 +58,11 @@ body {
     border-radius: 18px;
     cursor: pointer;
     border: none;
-    box-shadow: 1px 4px 15px #f7d259;
+    box-shadow: 1px 4px 15px #dec05f;
 }
-
-
 
 .price-tier .body p {
     font-size: 12px;
-}
-
-.price-tier .body .best {
-    color: red;
 }
 
 .price-tier .body .shipping {
@@ -103,6 +85,5 @@ body {
 }
 
 .price-tier .tier:hover {
-    background-color: #efefbd;
-    box-shadow: 5px 5px 15px #f7d259;
+    box-shadow: 5px 5px 15px #dec05f;
 }
